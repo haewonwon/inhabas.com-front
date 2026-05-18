@@ -7,18 +7,18 @@ import { ThemeProvider } from "styled-components";
 import GlobalStyle from "./styles/Globalstyles";
 import { theme } from "./styles/theme";
 
-import { failRefreshing } from "./Recoil/frontState";
+import { failRefreshing } from "./recoil/frontState";
 
-import Bottom from "./Components/Common/Bottom";
-import { Modal } from "./Components/Common/Modal/Modal";
-import ScrollToTop from "./Components/Common/ScrollToTop";
-import NotFound from "./Components/Page/Error/NotFound";
-import Login from "./Components/Page/Member/Login";
-import LoginProcess from "./Components/Page/Member/LoginProcess";
-import Rule from "./Components/Page/Member/Rule";
-import Signup from "./Components/Page/Member/Signup";
-import SignupQuestion from "./Components/Page/Member/SignupQuestion";
-import HeaderNavLayout from "./Layout/HeaderNavLayout";
+import Bottom from "./components/common/Bottom";
+import { Modal } from "./components/common/modal/Modal";
+import ScrollToTop from "./components/common/ScrollToTop";
+import NotFound from "./pages/NotFound";
+import Login from "./pages/member/Login";
+import LoginProcess from "./pages/member/LoginProcess";
+import Rule from "./pages/member/Rule";
+import Signup from "./pages/member/Signup";
+import SignupQuestion from "./pages/member/SignupQuestion";
+import HeaderNavLayout from "./layout/HeaderNavLayout";
 
 import { Div } from "./styles/assets/Div";
 
